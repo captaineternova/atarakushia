@@ -443,7 +443,9 @@ function FA_LOGIN() {
     return new Fetcher("/login", {
         method: 'POST'
     }, body).then(r => r.text())
-    .then(function(html) {        
+    .then(function(html) {
+        console.log('SWITCHEROO /login RESPONSE:', html);
+        
         if(html.indexOf("Vous avez spécifié un nom d'utilisateur incorrect ou inactif ou un mot de passe invalide") >= 0) {
             throw new Error('Something went wrong');
         } else {
