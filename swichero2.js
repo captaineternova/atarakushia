@@ -1,6 +1,6 @@
 const DEFAULT_LANG = {
     button: {
-        add: "Añadir personaje"
+        add: "<i class="sf sf-user"></i>"
     },
     msg: {
         error: "Ha ocurrido un error, inténtalo de nuevo.",
