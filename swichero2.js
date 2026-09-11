@@ -1,6 +1,6 @@
 const DEFAULT_LANG = {
     button: {
-        add: "<i class="sf sf-user"></i>"
+        add: ""
     },
     msg: {
         error: "Ha ocurrido un error, inténtalo de nuevo.",
