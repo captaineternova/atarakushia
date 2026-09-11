@@ -4,7 +4,7 @@ const DEFAULT_LANG = {
     },
     msg: {
         error: "Ha ocurrido un error, inténtalo de nuevo.",
-        confirm: "¿Confirmar acción?"
+        confirm: "¿Quieres cambiar de cuenta?"
     },
     modal: {
         password_placeholder: "",
@@ -25,7 +25,7 @@ const DEFAULT_OPT = {
     deleteIcon: `×`,
     addIcon: `+`,
     errorMsg: 'Ha ocurrido un error, inténtalo de nuevo.',
-    confirmMsg: '¿Confirmar acción?',
+    confirmMsg: '¿Quieres cambiar la cuenta?',
     modal: {}
 };
  
